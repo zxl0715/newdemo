@@ -40,7 +40,7 @@ public class HouseHoldProvider {
 
         List<HouseHold> list = new ArrayList<HouseHold>();
 
-        if ("bingxiang".equals(name)){
+        if ("冰箱".equals(name)){
             list.add(houseHold1);
             return new Result(list);
         }else if ("空调".equals(name)){
